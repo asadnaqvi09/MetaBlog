@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Technology",
+        "image": "https://img.freepik.com/free-photo/ai-technology-microchip-background-digital-transformation-concept_53876-124669.jpg",
+        "description": "Latest tech news and innovations"
+    },
+    {
+        "name": "Health",
+        "image": "https://img.freepik.com/free-photo/top-view-health-still-life-arrangement-with-copy-space_23-2148854064.jpg",
+        "description": "Tips for a healthy lifestyle"
+    },
+    {
+        "name": "Sports",
+        "image": "https://img.freepik.com/free-photo/close-up-shot-athlete-running-on-treadmill-with-heart-rate-monitor-smartwatch-and-gym-equipment-background_176532-1061.jpg",
+        "description": "Latest sports news and updates"
+    },
+    {
+        "name": "Finance",
+        "image": "https://img.freepik.com/free-photo/business-concept-with-graphic-holography_23-2149160928.jpg",
+        "description": "Financial tips and investments"
+    }
+]
