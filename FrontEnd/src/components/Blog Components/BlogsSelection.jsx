@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom';
 import categories from '../../json files/category.json'
 import blogPosts from '../../json files/blogPosts.json'
 
 function BlogsSelection() {
   const [activeCategory, setActiveCategory] = useState('Technology')
-  // Filter blog posts based on the active category
   const filteredBlogs = blogPosts.filter(blog => blog.category === activeCategory);
 
   return (

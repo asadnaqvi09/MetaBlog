@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import logo from '../../assets/Meta-Blog.png';
+import logo from '../../../public/Meta-Blog.png';
 import { FaSearch, FaBars, FaTimes } from 'react-icons/fa';
 import { NavLink, useNavigate, Link } from 'react-router-dom';
 

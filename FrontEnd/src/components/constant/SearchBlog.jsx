@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import BlogCard from './Cards';
+import BlogCard from '../Constant/Cards.jsx';
 import blogData from '../../blogPosts.json';
 import Footer from './components/Footer';
 

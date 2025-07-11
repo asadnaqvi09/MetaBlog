@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import latestPosts from '../../json files/blogPosts.json';
 import Cards from '../../components/constant/Cards';
 import { useNavigate, Link } from 'react-router-dom';
