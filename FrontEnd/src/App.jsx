@@ -1,13 +1,13 @@
 import Home from './components/Home Coponents/Home'
 import Blogs from './components/Blog Components/Blogs'
 import { Routes, Route } from 'react-router-dom'
-import SearchBlog from './components/Constant/SearchBlog'
+import SearchBlog from './components/constant/SearchBlog'
 import Contact from './components/Contact-Us Components/Contact'
 import About from './components/About Us Component/About'
 import SingleBlogPage from './components/constant/SinglePage'
 import Register from './components/constant/Register'
 import Login from './components/constant/Login'
-import Category from './components/Constant/Category'
+import Category from './components/constant/Category'
 
 function App() {
 
