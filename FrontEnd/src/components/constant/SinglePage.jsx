@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
@@ -71,7 +71,7 @@ const SingleBlogPage = () => {
         </div>
 
         <div className="mb-4">
-          <img src={blog.image} alt={blog.title} className="w-full object-fit h-[14rem] md:h-[22rem] rounded-lg" />
+          <img src={blog.image} alt={blog.title} className="w-full object-fit h-[14rem] md:h-[26rem] rounded-lg" />
         </div>
 
         <p className="text-lg font-semibold mb-4">{blog.description}</p>

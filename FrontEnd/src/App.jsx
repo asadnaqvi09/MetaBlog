@@ -1,7 +1,7 @@
 import Home from './components/Home Coponents/Home'
 import Blogs from './components/Blog Components/Blogs'
 import { Routes, Route } from 'react-router-dom'
-import SearchBlog from './SearchBlog'
+import SearchBlog from './components/Constant/SearchBlog'
 import Contact from './components/Contact-Us Components/Contact'
 import About from './components/About Us Component/About'
 import SingleBlogPage from './components/constant/SinglePage'

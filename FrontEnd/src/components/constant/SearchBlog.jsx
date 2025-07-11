@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import BlogCard from '../Constant/Cards.jsx';
-import blogData from '../../blogPosts.json';
-import Footer from './components/Footer';
+import Navbar from './Navbar.jsx';
+import BlogCard from './Cards.jsx';
+import blogData from '../../json files/blogPosts.json';
+import Footer from './Footer.jsx';
 
 function SearchBlog() {
   const [searchResults, setSearchResults] = useState([]);
